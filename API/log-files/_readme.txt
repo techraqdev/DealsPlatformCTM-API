@@ -1,0 +1,1 @@
+﻿This is test file to create the parent folder automatically on publish command

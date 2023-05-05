@@ -1,0 +1,8 @@
+﻿#Generating POCO entities from DB
+dotnet ef dbcontext scaffold "Host=87.106.53.234;Port=5432;User ID=username;Password=pwd;Database=DealsPlatform_Dev2" Npgsql.EntityFrameworkCore.PostgreSQL -o Domain.Models
+
+#Update the EF migration tool to latest one
+dotnet tool update --global dotnet-ef
+Remove the migrations
+dotnet ef migrations remove
+

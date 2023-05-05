@@ -1,0 +1,18 @@
+﻿using DTO;
+using DTO.Response;
+using Microsoft.AspNetCore.Http;
+
+namespace Deals.Business.Interface;
+public interface IUserBusiness
+{
+    Task<UserDTO?> AddUser(AddUserDTO user);
+    Task<BulkUploadResponse> BulkUploadExcel(IFormFile formFile, Guid? createdBy);
+    Task<bool> DeleteUser(Guid id);
+    Task<bool> ActivateUser(Guid id);
+    Task<List<AppMainMenuDTO>> GetMenus(int ccId, bool isAdmin);
+    Task<UserDTO?> GetUser(Guid id);
+    Task<PageModel<UserDTO>> GetUsersListAsync(SearchUserDTO search);
+    Task<UserDTO?> UpdateUser(Guid uuid, UpdateUserDTO user);
+    Task<Guid?> GetClientUserId();
+    Task<Stream> BulkDownloadUserDetails(SearchUserDTO searchUser);
+}

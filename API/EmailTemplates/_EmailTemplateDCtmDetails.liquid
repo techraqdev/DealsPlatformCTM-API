@@ -1,0 +1,38 @@
+﻿<div>
+
+	Dear Sir/Madam
+	<br/><br/>
+	
+  We have found duplicate records for project {{ProjectName}}-{{ProjectCode}}-{{TaskCode}} with other projects as below
+  <br />
+  <br />
+
+	<table>
+		<tr>
+			<th style="border-left: 1px solid;border-top: 1px solid;border-bottom: 1px solid;padding:5px;border-spacing:0px;">Transaction Date</th>
+			<th style="border-left: 1px solid;border-top: 1px solid;border-bottom: 1px solid;padding:5px;border-spacing:0px;">Name of Client</th>
+			<th style="border-left: 1px solid;border-top: 1px solid;border-bottom: 1px solid;padding:5px;border-spacing:0px;">Name of Bidder</th>
+			<th style="border-left: 1px solid;border-top: 1px solid;border-bottom: 1px solid;border-right: 1px solid;padding:5px;border-spacing:0px;">Matched Projects</th>
+		</tr>
+	
+  {% for detail in DetailList %}
+   
+    <tr>
+      <td style="border-left: 1px solid;border-bottom: 1px solid;padding:5px;border-spacing:0px;" >{{detail.TransactionDate}}</td>
+      <td style="border-left: 1px solid;border-bottom: 1px solid;padding:5px;border-spacing:0px;">{{detail.ClientName}}</td>
+      <td style="border-left: 1px solid;border-bottom: 1px solid;padding:5px;border-spacing:0px;">{{detail.Bidder}}</td>
+      <td style="border-left: 1px solid;border-bottom: 1px solid;padding:5px;border-spacing:0px;border-right: 1px solid;padding:5px;border-spacing:0px;">
+	  {% for project in detail.DuplicateProjectList %}
+	  {{project}}<br />
+	  {% endfor %}
+  	  </td>
+	</tr>
+  
+		{% endfor %}
+
+	</table>
+
+  <br />
+  <br />
+  Thank you
+</div>

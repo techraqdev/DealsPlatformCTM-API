@@ -1,0 +1,33 @@
+﻿<div>
+	Dear Sir/Madam
+	<br/><br/>
+
+	A user has reported {{ DisputeType }}.
+
+	<br/>
+	<br/>
+
+	{% if ShowComments %}
+
+	User has mentioned the following comment:
+	<br/>
+	{{Notes}}
+	<br/>
+	<br/>
+	{% endif %}
+
+
+	
+
+	Kindly click on the following link to review and resolve the error. Please click on “Resolved” button to confirm your changes.
+	<br/>
+	<br/>
+	If you are of the opinion that there is no error in your data, kindly select the option “Not an issue”.
+
+	<br/><br/>
+	Click <a href='{{ApplicationUrl}}' target="" _blank="">here</a> to view the information.
+	
+	<br/><br/>
+	Thank you					   
+</div>
+

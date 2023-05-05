@@ -1,0 +1,11 @@
+<Project>
+
+  <ItemGroup>
+	<PackageReference Include="ConfigureAwaitChecker.Analyzer" Version="4.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+	<PackageReference Include="Ben.BlockingDetector" Version="0.0.4" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,285 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "DealsPlatformContext",
+   "ContextNamespace": "",
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": "",
+   "OutputContextPath": "..\\Infrastructure",
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "Deals.Domain",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "DP.AppMainMenus",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.AppPrivs",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.AppRoleMenus",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.AppSubMenus",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.CfibProjects",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.ClientResponseData",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.CostCenters",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.CostCenterSubMenus",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.CredProjectRestrictedReasons",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.DataDump",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.DataDumpNonDealsSubSectors",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.DisputeRequests",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.EmailReminders",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.EngagementTypes",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.InputSearchTrackDetails",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.JobLogs",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.MailQueues",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.MailStatusTypes",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.MailTemplates",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.ProjectCredDetails",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.ProjectCredLookups",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.ProjectCtmDetails",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.ProjectCtmLookups",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.ProjectMailDetails",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.ProjectPublicWebsites",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.Projects",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.Projects_AuditLog",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.ProjectTypes",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.ProjectWfActions",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.ProjectWfLogs",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.ProjectWfNextActions",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.ProjectWfStatusTypes",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.ProjectWfUserTypeActions",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.Roles",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.SbuLeaders",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.SbuMonthlySummaryConfig",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.ShorDescClenup",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.Taxonomy",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.TaxonomyCategories",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.TaxonomyEngagementTypes",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.Users",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.UserTypes",
+         "ObjectType": 0
+      },
+      {
+         "Name": "DP.VwCredProjUsers",
+         "ObjectType": 3
+      },
+      {
+         "Name": "DP.VwCtmProjects",
+         "ObjectType": 3
+      },
+      {
+         "Name": "DP.VwProjClientEntityType",
+         "ObjectType": 3
+      },
+      {
+         "Name": "DP.VwProjDealType",
+         "ObjectType": 3
+      },
+      {
+         "Name": "DP.VwProjDealValue",
+         "ObjectType": 3
+      },
+      {
+         "Name": "DP.VwProjDiscloseEntityName",
+         "ObjectType": 3
+      },
+      {
+         "Name": "DP.VwProjDownload",
+         "ObjectType": 3
+      },
+      {
+         "Name": "DP.VwProjectCredLookups",
+         "ObjectType": 3
+      },
+      {
+         "Name": "DP.VwProjectCreds",
+         "ObjectType": 3
+      },
+      {
+         "Name": "DP.VwProjectCredsV2",
+         "ObjectType": 3
+      },
+      {
+         "Name": "DP.VwProjectRestrictedReasons",
+         "ObjectType": 3
+      },
+      {
+         "Name": "DP.VwProjNatureOfEngagement",
+         "ObjectType": 3
+      },
+      {
+         "Name": "DP.VwProjParentRegion",
+         "ObjectType": 3
+      },
+      {
+         "Name": "DP.VwProjProducts",
+         "ObjectType": 3
+      },
+      {
+         "Name": "DP.VwProjSector",
+         "ObjectType": 3
+      },
+      {
+         "Name": "DP.VwProjSubSector",
+         "ObjectType": 3
+      },
+      {
+         "Name": "DP.VwProjTargetEntityType",
+         "ObjectType": 3
+      },
+      {
+         "Name": "DP.VwProjTransactionStatus",
+         "ObjectType": 3
+      },
+      {
+         "Name": "DP.VwProjWorkRegion",
+         "ObjectType": 3
+      },
+      {
+         "Name": "DP.VwPvtTest",
+         "ObjectType": 3
+      }
+   ],
+   "UiHint": ".DealsPlatform_QA",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": true,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
