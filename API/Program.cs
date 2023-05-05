@@ -158,7 +158,6 @@ try
 
     builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
     builder.Services.AddDbContext<DealsPlatformContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DealsPlatformDBCon")));
-    //builder.Services.AddDbContext<DealsPlatformContext>(options => options.UseNpgsql("Server=trpgsrv.postgres.database.azure.com;Database=DealsPlatform_QA;Port=5432;User Id=postgres;Password=pguser12$;"));
     builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("AppSettings"));
     builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
 
